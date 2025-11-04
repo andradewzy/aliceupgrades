@@ -10,11 +10,11 @@ const projetos =[
     },
     {
         'id': 2,
-        'titulo': 'Título do projeto',
-        'descricao': 'Descrição do projeto',
-        'resumo': 'Todo o texto do projeto',
+        'titulo': 'Título do projeto 2',
+        'descricao': 'Descrição do projeto 2',
+        'resumo': 'Todo o texto do projeto 2',
         'imagem': '#',
-        'tag': 'tag1',
+        'tag': 'tag2',
         'link': '#',
     }
 ]

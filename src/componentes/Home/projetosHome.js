@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
-import projetosBase from '.../data/projetos';
-const imgLogo = require('.../definicoes.png');
+import projetosBase from '../../data/projetos';
+const imgLogo = require('../Footer/definicoes.png');
 
 export default function ProjetosHome(){
     const [projetos, setProjetos] = useState([]);
@@ -19,7 +20,7 @@ export default function ProjetosHome(){
                             <img src={imgLogo}/>
                             <h2>Título: {item.titulo}</h2>
                             <p>Resumo: {item.resumo}</p>
-                            <a href="#">Ver detalhes</a>
+                            <Link href="#">Ver detalhes</Link>
                         </article>
                     );
                 })

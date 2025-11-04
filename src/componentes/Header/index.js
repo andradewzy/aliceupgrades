@@ -1,4 +1,4 @@
-const imgLogo = require ('./definicoes.png');
+const imgLogo = require ('/home/tec-ds2/Documentos/ProjetosReact/aliceupgrades/src/componentes/Header');
 
 function Header(){
 
